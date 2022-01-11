@@ -27,7 +27,7 @@ ul {
 
   }
 
-  div {
+ .square {
     width: 300px;
     border: 20px solid cornflowerblue;
     padding: 50px;
@@ -35,6 +35,8 @@ ul {
     background-color: cornflowerblue
   }
 
-  #aboutme {
-    
+  .links {
+      text-align: center;
+      color: white;
+      background-color: lightblue;
   }
