@@ -1,6 +1,6 @@
 body {
     background-image: url(https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg);
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     color: whitesmoke;
@@ -12,12 +12,23 @@ h1 {
     font-family: 'Chango', cursive;
     color: plum;
     font-size: 40px;
+    letter-spacing: 10px;
+    padding-top: 5px;
 }
 
+.navbar {
+    text-align: center;
+    color: white;
+    background-color: plum;
+    padding: 10px;
+    opacity: 0.5;
+    font-family: 'Chango', cursive;
+    overflow: auto;
 
+}
 
-section {
-    font-size: 15px;
+.top-text {
+    font-size: 20px;
 
 }
 
@@ -26,19 +37,27 @@ ul {
     text-align: center;
     color: whitesmoke;
     font-size:13px;
+    list-style:none;
 
-  }
+}
 
- .square {
+ .squares {
     width: 300px;
-    border: 20px solid cornflowerblue;
+    border: 10px solid plum;
+    border-style: inset;
     padding: 50px;
-    margin-left: 100px;
-    background-color: cornflowerblue
+    background-image: linear-gradient(plum, cornflowerblue);
+    font-family: 'Chango', cursive; 
   }
 
-  .links {
-      text-align: center;
-      color: white;
-      background-color: lightblue;
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  img {
+      align-items: center;
+      
   }
